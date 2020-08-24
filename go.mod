@@ -1,6 +1,6 @@
 module github.com/rancher/norman
 
-go 1.12
+go 1.13
 
 replace github.com/matryer/moq => github.com/rancher/moq v0.0.0-20190404221404-ee5226d43009
 
@@ -21,10 +21,10 @@ require (
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 	google.golang.org/appengine v1.6.1 // indirect
-	k8s.io/api v0.18.0
-	k8s.io/apiextensions-apiserver v0.18.0
-	k8s.io/apimachinery v0.18.0
-	k8s.io/client-go v0.18.0
+	k8s.io/api v0.18.8
+	k8s.io/apiextensions-apiserver v0.18.8
+	k8s.io/apimachinery v0.18.8
+	k8s.io/client-go v0.18.8
 	k8s.io/gengo v0.0.0-20200114144118-36b2048a9120
 	k8s.io/utils v0.0.0-20200324210504-a9aa75ae1b89
 )
